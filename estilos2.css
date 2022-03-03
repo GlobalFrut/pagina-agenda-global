@@ -1,0 +1,167 @@
+body{
+    background: #f3f0f0;
+    font:  arial, arial;
+    
+ 
+}
+
+.menu{
+    width: 1113px;
+	height: 70px;
+	margin: 20px auto;
+	background: #059749;
+}
+.menu li a{
+    text-decoration: solid;
+    color: rgb(0, 0, 0);
+    padding: 26px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+.menu li a:hover{
+    background: #ef8354;
+    transition: all .3s;
+    text-align: center;
+    
+}
+ 
+/*Panel de registro*/
+.form-register{
+    width: 700px;
+    background: #e5ebe8;
+    padding: 5%;
+    margin: auto;
+    margin-top: 10px;
+    font-family: 'calibri';
+    color: rgb(0, 0, 0);
+    box-shadow: 7px 13px 37px #000000;
+  
+}
+
+.controls{
+    width: 50%;
+    background: #c7d4e0;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: 'arial' rgb(92, 18, 18);
+    font-size: 14px;
+    margin-left: 25%;
+}
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 100px;
+    
+}
+.form-register a:hover{
+    color: rgb(122, 22, 22);
+    text-decoration: underline;
+    
+    
+}
+.form-register .botons{
+    width: 40%;
+    background: #1f53c5;
+    border: none;
+    padding: 10px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    margin-left: 34%;
+}
+
+/*seleccion de menu*/
+.menu li a:hover{
+    background: #6053d1;
+    transition: all .3s;
+    padding: 26px;
+    font-size: 100%;
+    
+}
+
+.option{
+    background: #c7d4e0;
+    width: 53.5%;
+    padding: 2%;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: 'arial';
+    margin-left: 25%;
+    font-size: 90%;
+    
+}
+.ho{
+    width: 100%;
+    padding: 1%;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0px;
+    font-size: 200%;
+    text-align: center;
+    margin-left: auto;
+    
+}
+.controls a{
+    width: 110%;
+}
+.correo{
+    width: 50%;
+    margin-left: 42%;
+    margin-top: -24px;
+    font-size: 130%;
+    
+}
+.check{
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 17%;
+}
+.ho2{
+ 
+    width: 100%;
+    padding: 1%;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    font-family:  Garamond;
+    margin-top: 0px;
+    font-size: 200%;
+    text-align: center;
+    margin-left: auto;
+    
+}
+
+table{
+    background-color: #5a9c79;
+    text-align: left;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    border-collapse: collapse;
+}
+th, td{
+  
+    padding: 10px;
+
+}
+thead{
+    background-color: #059749;
+    border-bottom: solid 5px #fbfbfb;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: #ddd;
+}
+tr:hover td{
+    background-color: #3e3591;
+    color: white;
+
+}
